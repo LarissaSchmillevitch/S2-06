@@ -80,6 +80,10 @@ figure:hover{
     transform: scale(1.2);
 }
 
+.perfil:hover > p{
+    color:#FFFFFF;
+}
+
 p{
     font-family: 'IBM Plex Sans';
     font-style: normal;
@@ -94,42 +98,27 @@ p{
     margin-left: 70px;
 }
 
-p:hover{
-    color:#FFFFFF;
-}
-
 .adicionar {
+    background: url("./plus-circle.png") no-repeat;
+    background-position-x:center;
+    background-position-y:center;
     width: 160px;
     height: 160px;
     border: solid 2px transparent;
     margin-bottom: 25px;
     background-color: #1E1E20;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight:500;
     cursor: pointer;
     border-radius: 10px;
     line-height: 21px;
 }
 
 .adicionar:hover{
-    border: 1px solid white;
-}
-
-.adicionar img{
-    background-image: url("./plus-circle.png") no-repeat;
-    border: transparent;
-    margin-left: 45px;
-    margin-top: 45px;
-}
-
-.adicionar img:hover{
-    background-image: url("./plus-circlewhite.png") no-repeat;
-    border: transparent;
-}
-
-#iconemais{
-    background-image: url("./plus-circle.png") no-repeat;
+    background: url("./plus-circlewhite.png") no-repeat;
+    background-color: #1E1E20;
+    background-position-x:center;
+    background-position-y:center;
     transform: scale(1);
+    border: 1px solid white;
 }
 
 .addperfil{
